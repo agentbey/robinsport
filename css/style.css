@@ -334,6 +334,9 @@ input[type="button"].button-primary:focus {
 }
 
 /* HOME SECTION 0 */
+.home .section-0 h1 {
+   font-size: 3rem;
+}
 body.home .section-0 {
    background: #fff;
    height: 480px;
