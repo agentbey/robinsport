@@ -13,7 +13,7 @@ a.acorn {
 	box-sizing: border-box;
 	display: none;
 	position: fixed;
-	top: 120px;
+	top: 200px;
 	right: 10px;
 	z-index: 999;
 	font-family: 'Oswald', sans-serif;
