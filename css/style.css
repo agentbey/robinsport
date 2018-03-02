@@ -112,7 +112,7 @@ li.main-nav-item {
 .main-nav-item a {
    color: #0c0603;
    font-family: 'Open Sans', sans-serif;
-   font-size: 13px;
+   font-size: 15px;
    font-weight: 600;
    letter-spacing: 1px;
    text-decoration: none;
@@ -164,14 +164,14 @@ img {
 /* BUTTONS */
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
    font-family: 'Open Sans', sans-serif;
-   font-size: 13px;
+   font-size: 14px;
    font-weight: 400;
    border:none;
    border-radius: 5px;
    color: #FFFFFF;
    cursor: pointer;
    display: block;
-   letter-spacing: .1em;
+   letter-spacing: .05em;
    line-height: 30px;
    height: 30px;
    background: #8ee300;
@@ -179,7 +179,7 @@ img {
    background: -webkit-linear-gradient(top, #8ee300 0%,#80cd00 100%);
    background: linear-gradient(to bottom, #8ee300 0%,#80cd00 100%);
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ee300', endColorstr='#80cd00',GradientType=0 );
-   margin: 40px auto;
+   margin: 40px auto 10px;
    text-align: center;
    width:180px;
 }
@@ -671,7 +671,7 @@ div {
    text-align: left;
    padding: 40px;
 }
-.callout-box p {color: #999}
+.callout-box p {color: #777777}
 .separator:before {
    content: '';
    position: absolute;
@@ -735,6 +735,10 @@ div {
 .footer h3 {
    font-size: 1em;
    text-transform: uppercase;
+}
+.footer .fab {
+	font-size: 30px!important;
+	padding: 10px;
 }
 .copyright {
    font-size: .7em;
