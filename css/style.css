@@ -55,7 +55,6 @@ strong {color:#8EE300;font-weight: 300}
 b {font-family: 'Oswald', sans-serif; letter-spacing: .1em; text-transform: uppercase}
 a {color: #1eaedb;text-decoration: none}
 .align-right {text-align: right}
-
 ul {
    list-style-type: square;
 }
@@ -460,8 +459,8 @@ body.home .image-i {
 /* ABOUT SECTION 0 */
 body.about .section-0 {
    background: #fff;
-   padding-top: 140px;
-   padding-bottom: 140px;
+   padding-top: 40px;
+   padding-bottom: 40px;
    margin: 40px;
 }
 body.about .section-0 .grid-50 {padding: 10px 40px}
@@ -497,12 +496,11 @@ body.about .image-c {
 /* ABOUT SECTION 2 */
 body.about .section-2 {
    background: #fff;
-   height: 480px;
-   padding: 0;
-   position: relative;
-   text-align: center;}
-body.about .section-2 .grid-30 {padding: 40px}
-body.about .section-2 .grid-55 {padding: 40px 40px 0}
+   padding-top: 40px;
+   padding-bottom: 40px;
+   margin: 40px;
+}
+body.about .section-2 .grid-50 {padding: 10px 40px}
 
 /* ABOUT SECTION 3 */
 body.about .image-d {
@@ -525,64 +523,72 @@ body.contact .section-0 {
 body.contact .section-0 p {text-align: left}
 body.contact .section-0 .grid-50 {padding: 10px 40px}
 
-/* WORK SECTION 0 */
-body.work .section-0, body.work .section-2 {
+/* DESIGN SECTION 0 */
+body.design .section-0, body.work .section-2 {
    background: #fff;
-   padding-top: 120px;
-   padding-bottom: 120px;
+   padding-top: 40px;
+   padding-bottom: 40px;
    margin: 40px;
 }
-body.work .section-0 .grid-50 {padding: 10px 40px}
-body.work .section-2 .grid-100 {padding: 0 40px}
+body.design .section-0 .grid-50 {padding: 10px 40px}
+body.design .section-2 .grid-100 {padding: 0 40px}
 
-/* WORK SECTION 1 */
-body.work .section-1 {
+/* DESIGN SECTION 1 */
+body.design .section-1 {
    background: #000;
    padding: 0;
    margin: 0;
    position: relative;
 }
-body.work .image-a {
+body.design .image-a {
    background: url("../images/isw-01.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
    position: relative;
 }
-body.work .image-b {
+body.design .image-b {
    background: url("../images/verizon-02.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
    position: relative;
 }
-body.work .image-c {
+body.design .image-c {
    background: url("../images/empire-02.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
    position: relative;
 }
-body.work .image-d {
+body.design .image-d {
    background: url("../images/maserati-01.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
    position: relative;
 }
-body.work .image-e {
+body.design .image-e {
    background: url("../images/netflix-01.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
    position: relative;
 }
-body.work .image-f {
+body.design .image-f {
    background: url("../images/maserati-02.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
    position: relative;
+}
+
+/* DESIGN SECTION 2 */
+body.design .section-2 {
+   background: #fff;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   margin: 40px;
 }
 
 /* SERVICES SECTION 0 */
@@ -940,4 +946,5 @@ animation: bounce 2s infinite;
    .callout-box {padding: 30px;width: auto;height: auto}
    .align-right {text-align: inherit}
    .image-a, .image-b, .image-c, .image-d, .image-e, .image-f, .image-g, .image-h, .image-i, .image-j {width:100% ;position: inherit;transform: inherit}
+   body.design .section-0 .grid-50 {padding: 0;}
 }
