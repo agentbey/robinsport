@@ -178,7 +178,6 @@ img {
 	text-align: center;
 	text-transform: uppercase;
 	width: 200px;
-
 }
 .button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
    background: #333333;
@@ -192,7 +191,7 @@ img {
    color: #fff;
    padding: 0;
    position: relative;
-   min-height: 640px;
+   min-height: 520px;
    text-align: center;
 }
 .hero-image-1 {
@@ -500,7 +499,7 @@ body.contact .section-0 p {text-align: left}
 body.contact .section-0 .grid-50 {padding: 10px 40px}
 
 /* DESIGN SECTION 0 */
-body.design .section-0, body.work .section-2 {
+body.design .section-0, body.design .section-2 {
    background: #fff;
    padding-top: 40px;
    padding-bottom: 40px;
@@ -559,14 +558,6 @@ body.design .image-f {
    position: relative;
 }
 
-/* DESIGN SECTION 2 */
-body.design .section-2 {
-   background: #fff;
-   padding-top: 40px;
-   padding-bottom: 40px;
-   margin: 40px;
-}
-
 /* MANAGE SECTION 0 */
 body.manage .section-0 {
    padding-top: 40px;
@@ -603,7 +594,7 @@ body.manage .image-c {
    position: relative;
 }
 
-/* manage SECTION 2 */
+/* MANAGE SECTION 2 */
 body.manage .section-2 {
    background: #fff;
    padding-top: 40px;
@@ -634,8 +625,67 @@ body.manage .section-4 {
    margin:40px
 }
 body.manage .section-4 p {font-size: 14px}
-
 .quote-author {color:#fff; font-size: .86em;letter-spacing: .1em;margin: 0;text-transform: uppercase;}
+
+/* DESIGN SECTION 0 */
+body.team .section-0, body.team .section-2 {
+   background: #fff;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   margin: 40px;
+}
+body.team .section-0 .grid-50 {padding: 10px 40px}
+body.team .section-2 .grid-100 {padding: 0 40px}
+
+/* DESIGN SECTION 1 */
+body.team .section-1 {
+   background: #000;
+   padding: 0;
+   margin: 0;
+   position: relative;
+}
+body.team .image-a {
+   background: url("../images/isw-01.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   float: left;
+   position: relative;
+}
+body.team .image-b {
+   background: url("../images/verizon-02.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   float: left;
+   position: relative;
+}
+body.team .image-c {
+   background: url("../images/empire-02.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   float: left;
+   position: relative;
+}
+body.team .image-d {
+   background: url("../images/maserati-01.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   float: left;
+   position: relative;
+}
+body.team .image-e {
+   background: url("../images/netflix-01.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   float: left;
+   position: relative;
+}
+body.team .image-f {
+   background: url("../images/maserati-02.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   float: left;
+   position: relative;
+}
 
 /* GRAPHIC ELEMENTS */
 div {
