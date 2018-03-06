@@ -117,11 +117,14 @@ li.main-nav-item {
    text-decoration: none;
    text-transform: uppercase;
 }
-.main-nav-item a:hover, .main-nav-item a:active, .main-nav-item a:visited, .main-nav-item a:focus {
+.main-nav-item a:hover {
    color: #00a6db;
 }
 .primary-nav {
    background: #FFF;
+}
+.main-nav-item .current {
+   color: #00a6db;
 }
 
 /* SLIDEOUT NAVIGATION */
