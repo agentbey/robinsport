@@ -442,6 +442,7 @@ body.about .section-0 {
    margin: 40px;
 }
 body.about .section-0 .grid-50 {padding: 10px 40px}
+
 /* ABOUT SECTION 1 */
 body.about .section-1 {
    background: #000;
@@ -554,7 +555,7 @@ body.design .image-e {
    position: relative;
 }
 body.design .image-f {
-   background: url("../images/maserati-02.jpg") no-repeat;
+   background: url("../images/mjm-01.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
@@ -699,8 +700,8 @@ body.manage .section-4 {
 body.manage .section-4 p {font-size: 14px}
 .quote-author {color:#fff; font-size: .86em;letter-spacing: .1em;margin: 0;text-transform: uppercase;}
 
-/* DESIGN SECTION 0 */
-body.team .section-0, body.team .section-2 {
+/* TEAM SECTION 0 */
+body.team .section-0 {
    background: #fff;
    padding-top: 40px;
    padding-bottom: 40px;
@@ -709,7 +710,7 @@ body.team .section-0, body.team .section-2 {
 body.team .section-0 .grid-50 {padding: 10px 40px}
 body.team .section-2 .grid-100 {padding: 0 40px}
 
-/* DESIGN SECTION 1 */
+/* TEAM SECTION 1 */
 body.team .section-1 {
    background: #000;
    padding: 0;
