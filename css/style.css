@@ -146,13 +146,14 @@ li.slideout-nav-item {
    display: block;
    font-family: 'Open Sans', sans-serif;
    font-size: 14px;
+   font-weight: 700;
    letter-spacing: .1em;
    text-decoration: none;
    text-transform: uppercase;
    padding: 20px;
 }
 .slideout-nav-item a:hover, .slideout-nav-item a:focus {
-   background: #8ee300;
+   background: #00a6db;
    display: block;
 }
 
@@ -192,7 +193,7 @@ img {
 .hero {
    background-color:#222;
    color: #fff;
-   padding: 0;
+   padding: 40px 0;
    position: relative;
    min-height: 520px;
    text-align: center;
@@ -605,7 +606,7 @@ body.plan .section-2 {
    padding-bottom: 40px;
    margin: 40px
 }
-body.plan .grid-50 {padding: 0 40px}
+body.plan .section-0 .grid-50 {padding: 0 40px}
 body.plan .section-2 .grid-100 {padding: 0 40px}
 
 /* PLAN SECTION 3 */
@@ -993,7 +994,7 @@ animation: bounce 2s infinite;
 	   -o-transform: rotate(-45deg) translate(4px, -4px);
 	   transform: rotate(-45deg) translate(4px, -4px);
    }
-   .primary-nav {
+   .primary-nav, .primary-logo {
 	   display: none;
    }
    .secondary-nav {
@@ -1008,7 +1009,7 @@ animation: bounce 2s infinite;
    }
    .footer {padding: 40px}
 
-   body.home .section-0 {margin: 40px}
+   body.home .section-0 {margin: 40px 0}
    body.home .section-0 .grid-50 {width: 100%}
    body.home .section-2 {height: auto;margin: 40px}
    body.home .section-2 .grid-30 {padding: 40px 0 0;width: 100%}
@@ -1045,5 +1046,8 @@ animation: bounce 2s infinite;
    .callout-box {padding: 30px;width: auto;height: auto}
    .align-right {text-align: inherit}
    .image-a, .image-b, .image-c, .image-d, .image-e, .image-f, .image-g, .image-h, .image-i, .image-j {width:100% ;position: inherit;transform: inherit}
-   body.design .section-0 .grid-50 {padding: 0;}
+   body.design .section-0 .grid-50 {padding: 0}
+   body.plan .section-0 .grid-50 {padding: 0}
+   body.design .section-2 .grid-100,body.about .section-2 .grid-50 {padding: 0}
+   body.team .section-0 .grid-50 {padding: 0}
 }
