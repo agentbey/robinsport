@@ -647,21 +647,21 @@ body.manage .section-1 {
    position: relative;
 }
 body.manage .image-a {
-   background: url("../images/motorsport-02.jpg") no-repeat;
+   background: url("../images/manage-01.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
    position: relative;
 }
 body.manage .image-b {
-   background: url("../images/motorsport-04.jpg") no-repeat;
+   background: url("../images/manage-02.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
    position: relative;
 }
 body.manage .image-c {
-   background: url("../images/motorsport-01.jpg") no-repeat;
+   background: url("../images/manage-03.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
@@ -680,7 +680,7 @@ body.manage .section-2 .grid-100 {padding: 0 40px}
 
 /* manage SECTION 3 */
 body.manage .image-d {
-   background: url("../images/motorsport-03.jpg") no-repeat;
+   background: url("../images/manage-04.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    width: 100%;
