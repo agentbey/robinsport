@@ -77,9 +77,6 @@ li {
 .center {
    text-align: center;
 }
-.repeater {
-   padding: 0 0 3rem;
-}
 
 /* HEADER */
 header {
@@ -263,22 +260,11 @@ img {
 }
 
 /* GLOBAL IMAGE TRANSITIONS */
-.mask {
-  cursor: pointer;
-  opacity: 0;
-  overflow:visible;
-  z-index: 1;
-}
-.mask:hover, .mask:focus {opacity: 1}
-.border:hover, .border:focus {
-   box-shadow: inset 0 0 0 300px rgba(12,6,3,0.5);
-}
 .image-30 {
    width: 30%;
    height: 240px;
    position: absolute;
    z-index: 0;
-   cursor: pointer;
    transition: all 0.4s ease-in-out;
 }
 .image-33 {
@@ -286,7 +272,6 @@ img {
    height: 480px;
    position: absolute;
    z-index: 0;
-   cursor: pointer;
    transition: all 0.4s ease-in-out;
 }
 .image-70 {
@@ -294,7 +279,6 @@ img {
    height: 480px;
    position: absolute;
    z-index: 0;
-   cursor: pointer;
    transition: all 0.4s ease-in-out;
 }
 .image-100 {
@@ -302,12 +286,7 @@ img {
    height: 480px;
    position: absolute;
    z-index: 0;
-   cursor: pointer;
    transition: all 0.4s ease-in-out;
-}
-
-.image-a:hover .mask, .image-b:hover .mask, .image-c:hover .mask, .image-d:hover .mask, .image-e:hover .mask, .image-f:hover .mask, .image-g:hover .mask, .image-h:hover .mask, .image-i:hover .mask, .image-j:hover .mask, .image-a:focus .mask, .image-b:focus .mask, .image-c:focus .mask, .image-d:focus .mask, .image-e:focus .mask, .image-f:focus .mask, .image-g:focus .mask, .image-h:focus .mask, .image-i:focus .mask, .image-j:focus .mask {
-   opacity: 1;
 }
 
 /* HOME SECTION 0 */
@@ -460,7 +439,7 @@ body.about .image-a {
    position: relative;
 }
 body.about .image-b {
-   background: url("../images/ferrari-01.jpg") no-repeat;
+   background: url("../images/harley-04.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
@@ -481,7 +460,6 @@ body.about .section-2 {
    margin: 40px;
 }
 body.about .section-2 .grid-50 {padding: 10px 40px}
-
 /* ABOUT SECTION 3 */
 body.about .image-d {
    background: url("../images/empire-01.jpg") no-repeat;
@@ -492,7 +470,6 @@ body.about .image-d {
    float:left;
    position: relative;
    z-index: 0;
-   cursor: pointer;
 }
 
 /* CONTACT SECTION 0 */
@@ -503,6 +480,38 @@ body.contact .section-0 {
 body.contact .section-0 p {text-align: left}
 body.contact .section-0 .grid-50 {padding: 10px 40px}
 
+
+/* CONTACT SECTION 1 */
+body.contact .section-1 {
+   background: #000;
+   min-height: 480px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   position: relative;
+}
+body.contact .image-d {
+   background: url("../images/mhl-01.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   top: 0;
+   left: 0;
+}
+body.contact .image-e {
+   background: url("../images/mhl-03.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   bottom: 0;
+   left: 0;
+}
+body.contact .image-f {
+   background: url("../images/mhl-02.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   top: 0;
+   right: 0;
+}
+
 /* DESIGN SECTION 0 */
 body.design .section-0, body.design .section-2 {
    background: #fff;
@@ -512,7 +521,6 @@ body.design .section-0, body.design .section-2 {
 }
 body.design .section-0 .grid-50 {padding: 10px 40px}
 body.design .section-2 .grid-100 {padding: 0 40px}
-
 /* DESIGN SECTION 1 */
 body.design .section-1 {
    background: #000;
@@ -542,7 +550,7 @@ body.design .image-c {
    position: relative;
 }
 body.design .image-d {
-   background: url("../images/maserati-01.jpg") no-repeat;
+   background: url("../images/water-sport-01.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
@@ -569,7 +577,6 @@ body.plan .section-0 {
    padding-bottom: 40px;
    margin: 40px;
 }
-
 /* PLAN SECTION 1 */
 body.plan .section-1 {
    background: #000;
@@ -578,28 +585,27 @@ body.plan .section-1 {
    position: relative;
 }
 body.plan .image-a {
-   background: url("../images/motorsport-02.jpg") no-repeat;
+   background: url("../images/jerseys-01.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
    position: relative;
 }
 body.plan .image-b {
-   background: url("../images/motorsport-04.jpg") no-repeat;
-   background-size: cover;
-   background-position: 50% 50%;
-   float: left;
-   position: relative;
-}
-body.plan .image-c {
    background: url("../images/motorsport-01.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    float: left;
    position: relative;
 }
-
-/* plan SECTION 2 */
+body.plan .image-c {
+   background: url("../images/redbull-05.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   float: left;
+   position: relative;
+}
+/* PLAN SECTION 2 */
 body.plan .section-2 {
    background: #fff;
    padding-top: 40px;
@@ -619,7 +625,6 @@ body.plan .image-d {
    float:left;
    position: relative;
    z-index: 0;
-   cursor: pointer;
 }
 /* PLAN SECTION 4 */
 body.plan .section-4 {
@@ -638,7 +643,6 @@ body.manage .section-0 {
    padding-bottom: 40px;
    margin: 40px;
 }
-
 /* MANAGE SECTION 1 */
 body.manage .section-1 {
    background: #000;
@@ -667,7 +671,6 @@ body.manage .image-c {
    float: left;
    position: relative;
 }
-
 /* MANAGE SECTION 2 */
 body.manage .section-2 {
    background: #fff;
@@ -677,8 +680,7 @@ body.manage .section-2 {
 }
 body.manage .grid-50 {padding: 0 40px}
 body.manage .section-2 .grid-100 {padding: 0 40px}
-
-/* manage SECTION 3 */
+/* MANAGE SECTION 3 */
 body.manage .image-d {
    background: url("../images/manage-04.jpg") no-repeat;
    background-size: cover;
@@ -688,9 +690,8 @@ body.manage .image-d {
    float:left;
    position: relative;
    z-index: 0;
-   cursor: pointer;
 }
-/* manage SECTION 4 */
+/* MANAGE SECTION 4 */
 body.manage .section-4 {
    background: #fff;
    letter-spacing: .03em;
@@ -762,9 +763,7 @@ body.team .image-f {
 }
 
 /* GRAPHIC ELEMENTS */
-div {
- z-index: 1;
-}
+div {z-index: 1;}
 .callout-box {
    background: #ffffff;
    background: -moz-linear-gradient(top, #ffffff 50%, #f8f8f8 100%);
@@ -798,21 +797,6 @@ div {
    padding-bottom: 1em;
    text-align: center;
    color: inherit;
-}
-.network {
-   background: url("../images/network.svg") no-repeat;
-   display: block;
-   width: 80px;
-   height: 80px;
-   margin: 40px auto;
-}
-.network_grey {
-   background: url("../images/network_grey.svg") no-repeat;
-   display: block;
-   width: 55px;
-   height: 55px;
-   margin: 0 auto;
-   padding: 10px 0;
 }
 .caption {
    color: #fff;
