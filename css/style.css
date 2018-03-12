@@ -295,7 +295,7 @@ img {
 }
 body.home .section-0 {
    background: #fff;
-   height: 480px;
+   height: 320px;
    position: relative;
 }
 /* HOME SECTION 1 */
@@ -331,11 +331,10 @@ body.home .image-c {
 /* HOME SECTION 2 */
 body.home .section-2 {
    background: #fff;
-   height: 480px;
-   position: relative;
-   text-align: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   margin: 40px;
 }
-body.home .section-2 .grid-30 {padding: 40px}
 
 /* HOME SECTION 3 */
 body.home .section-3 {
@@ -369,24 +368,51 @@ body.home .image-f {
 }
 /* HOME SECTION-4 */
 body.home .section-4 {
-   background: #8EE300;
-   color:#FFFFFF;
-   height: 480px;
-   position: relative;
-   text-align: center;
+   background: #fff;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   margin: 40px;
 }
-body.home .section-4 h3 {
-   color:#FFFFFF;
-   line-height: 1.6;
-}
-body.home .section-4 .grid-35 {
-   padding: 40px;
-}
-body.home .section-4 .grid-30 {
-   padding: 20px 40px;
-}
+
 /* HOME SECTION 5 */
 body.home .section-5 {
+   min-height: 480px;
+   padding: 0;
+   margin: 0;
+   position: relative;
+}
+body.home .image-g {
+   background: url("../images/redbull-06.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   float:left;
+   position: relative;
+}
+body.home .image-h {
+   background: url("../images/redbull-09.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   float:left;
+   position: relative;
+}
+body.home .image-i {
+   background: url("../images/redbull-07.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 50%;
+   float:left;
+   position: relative;
+}
+
+/* HOME SECTION-6*/
+body.home .section-6 {
+   background: #fff;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   margin: 40px;
+}
+
+/* HOME SECTION 7 */
+body.home .section-7 {
    min-height: 480px;
    padding: 0;
    margin: 0;
@@ -480,7 +506,6 @@ body.contact .section-0 {
 body.contact .section-0 p {text-align: left}
 body.contact .section-0 .grid-50 {padding: 10px 40px}
 
-
 /* CONTACT SECTION 1 */
 body.contact .section-1 {
    background: #000;
@@ -521,6 +546,7 @@ body.design .section-0, body.design .section-2 {
 }
 body.design .section-0 .grid-50 {padding: 10px 40px}
 body.design .section-2 .grid-100 {padding: 0 40px}
+
 /* DESIGN SECTION 1 */
 body.design .section-1 {
    background: #000;
