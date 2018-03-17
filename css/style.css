@@ -1045,6 +1045,7 @@ animation: bounce 2s infinite;
    body.contact .section-0 .grid-50 {padding:10px 0}
 }
 @media screen and (max-width: 768px) {
+    .mobile {display: none}
    .header-logo img {padding: 20px;width: 66%}
    .hero {min-height: 480px}
    .hero .grid-70 {width: 100%}
