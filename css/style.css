@@ -486,9 +486,10 @@ body.about .section-2 {
    margin: 40px;
 }
 body.about .section-2 .grid-50 {padding: 10px 40px}
+
 /* ABOUT SECTION 3 */
 body.about .image-d {
-   background: url("../images/empire-01.jpg") no-repeat;
+   background: url("../images/redbull-01.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    width: 100%;
@@ -501,10 +502,10 @@ body.about .image-d {
 /* CONTACT SECTION 0 */
 body.contact .section-0 {
    background: #fff;
-   margin: 80px 40px;
+   height:480px;
 }
 body.contact .section-0 p {text-align: left}
-body.contact .section-0 .grid-50 {padding: 10px 40px}
+body.contact .grid-50.margin-60 {padding:60px}
 
 /* CONTACT SECTION 1 */
 body.contact .section-1 {
@@ -516,21 +517,21 @@ body.contact .section-1 {
    position: relative;
 }
 body.contact .image-d {
-   background: url("../images/mhl-01.jpg") no-repeat;
+   background: url("../images/contact-01.jpg") no-repeat;
    background-size: cover;
-   background-position: 50% 50%;
+   background-position: 50% 20%;
    top: 0;
    left: 0;
 }
 body.contact .image-e {
-   background: url("../images/mhl-03.jpg") no-repeat;
+   background: url("../images/contact-03.jpg") no-repeat;
    background-size: cover;
-   background-position: 50% 50%;
+   background-position: 0% 20%;
    bottom: 0;
    left: 0;
 }
 body.contact .image-f {
-   background: url("../images/mhl-02.jpg") no-repeat;
+   background: url("../images/contact-02.jpg") no-repeat;
    background-size: cover;
    background-position: 50% 50%;
    top: 0;
@@ -693,10 +694,11 @@ body.manage .image-b {
 body.manage .image-c {
    background: url("../images/manage-03.jpg") no-repeat;
    background-size: cover;
-   background-position: 50% 50%;
+   background-position: 100% 0%;
    float: left;
    position: relative;
 }
+
 /* MANAGE SECTION 2 */
 body.manage .section-2 {
    background: #fff;
