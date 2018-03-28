@@ -1058,7 +1058,7 @@ animation: bounce 2s infinite;
    h1.separator {font-size: 2em;letter-spacing: .2em}
    .callout-box {padding: 30px;width: auto;height: auto}
    .align-right {text-align: inherit}
-   .image-a, .image-b, .image-c, .image-d, .image-e, .image-f, .image-g, .image-h, .image-i, .image-j {width:100% ;position: inherit;transform: inherit}
+   .image-a, .image-b, .image-c, .image-d, .image-e, .image-f, .image-g, .image-h, .image-i, .image-j, .image-k, .image-l {width:100% ;position: inherit;transform: inherit}
    body.design .section-0 .grid-50 {padding: 0}
    body.plan .section-0 .grid-50 {padding: 0}
    body.design .section-2 .grid-100,body.about .section-2 .grid-50 {padding: 0}
