@@ -418,24 +418,24 @@ body.home .section-7 {
    margin: 0;
    position: relative;
 }
-body.home .image-g {
-   background: url("../images/redbull-06.jpg") no-repeat;
+body.home .image-j {
+   background: url("../images/redbull-11.jpg") no-repeat;
    background-size: cover;
-   background-position: 50% 50%;
+   background-position: 100% 0%;
    float:left;
    position: relative;
 }
-body.home .image-h {
-   background: url("../images/redbull-09.jpg") no-repeat;
+body.home .image-k {
+   background: url("../images/home-10.jpg") no-repeat;
    background-size: cover;
-   background-position: 50% 50%;
+   background-position: 80% 0%;
    float:left;
    position: relative;
 }
-body.home .image-i {
-   background: url("../images/redbull-07.jpg") no-repeat;
+body.home .image-l {
+   background: url("../images/suzuki-01.jpg") no-repeat;
    background-size: cover;
-   background-position: 50% 50%;
+   background-position: 0% 50%;
    float:left;
    position: relative;
 }
